@@ -1,0 +1,45 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.div-clock {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1200%;
+    margin: auto;
+    width: 73%;
+    
+}
+
+.clock {
+    display: inline-block;
+    color: rgb(255,255,240);
+    margin: 10% 0 0 0;
+    padding: 0 10%;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgba(30,30,30,.3);
+    border-width: 5px;
+}
+
+.weather {
+    color: rgb(255,255,240);
+    text-align: center;
+}
+
+.icon {
+    width: 150px;
+    margin-top: -24px;
+}
+
+.weather_type {
+    margin-top: -37px;
+    font-weight: 700;
+}
+
+.weather_description {
+    margin-top: -42px;
+}
